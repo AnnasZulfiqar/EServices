@@ -1,0 +1,159 @@
+body
+{
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.fa-facebook-square, .fa-instagram-square, .fa-twitter-square
+{
+    font-size: 20px !important;
+    margin-left: 3px;
+}
+
+.topNvav
+{
+    background-color: black;
+    color: white;
+}
+
+.imgLogo
+{
+    width: 50%;
+    height: 2.5em;
+}
+
+.navbar
+{
+  width: 100%;
+}
+
+.nav-item
+{
+    color: white !important;
+}
+
+.nav-item:hover
+{
+    color: #15BAAA !important;
+    border-bottom: 1px solid #10bcac !important;
+}
+
+.jumbotron
+{
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(../images/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0% !important;
+    background-size: 100% auto;
+
+    color: white;
+    width: 100%;
+}
+
+.btn
+{
+    background-color: #15BAAA;
+    color: white;
+    border-radius: 25px !important;
+}
+
+.progress-bar
+{
+    background-color: #15BAAA !important;
+}
+
+.progress
+{
+    background-color: lightgray !important;
+}
+
+.linkText
+{
+    color: white;
+    text-decoration: none;
+}
+
+.linkText:hover
+{
+    text-decoration: none;
+    color: #15BAAA;
+}
+
+/* home */
+
+
+.border{
+    border: 2px solid #15BAAA !important;
+    padding: 0.5em !important;
+  }
+  
+
+img.img-fluid.rounded-circle.border {
+    width: 50% !important
+  }
+  .mt-4{
+    margin-top: 4em;
+  }
+  p.text-muted.member-name-detail {
+    font-size: 1.5em;
+    font-family: 'PT Sans Narrow', sans-serif;
+  }
+/* about */
+
+.heading
+{
+    text-align: center;
+}
+
+.heading hr{
+    border-top: 2px solid #10bcac !important;
+      width: 10% !important;
+  }
+
+/* services */
+.i{
+    margin: 0 !important;
+      display: block !important;
+      padding: 1em 1em 1em 0em !important;
+      color: white !important;
+      font-size: 1.8em !important;
+  }
+  .i span{
+    padding-left: 1.3em !important;
+    font-size: 0.9em;
+  }
+  i.service {
+    font-size: 4em !important;
+    color: white;
+    background-color: #10bcac;
+    padding: 0.8em;
+    border-radius: 2em;
+  }
+  i.service:hover {
+    font-size: 4.3em !important;
+  }
+  .service h3{  
+    font-size: 5em;
+    padding-top: 0em !important;
+    padding-bottom: 0.5em !important;
+    font-family: 'PT Serif', serif;
+    text-align: center !important;
+  }
+  .description{
+    font-size: 1em !important;
+    /* padding-left: 0.8em !important;
+    padding-right: 0.8em !important; */
+    color: black !important;
+    text-align: center;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+/* contact */
+
+  .contact
+{
+    display: flex;
+}
